@@ -33,7 +33,7 @@ avatar: "/img/arjun.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: /path/to/image
+title-img: "/img/arjun.jpg"
 
 # --- Footer options --- #
 
@@ -43,6 +43,7 @@ author:
   name: Arjun Balasubramanian
   email: "balarjun@cs.wisc.edu"
   github: Arjunbala    # eg. daattali
+  linkedin: balarjun
 
 # Select which links to show in the footer
 footer-links-active:
