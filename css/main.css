@@ -675,6 +675,11 @@ td.gutter {
   padding-top: 3px;
 }
 
+img.resize {
+  max-width:50%;
+  max-height:50%;
+}
+
 /* --- Social media sharing section --- */
 
 #social-share-section {
