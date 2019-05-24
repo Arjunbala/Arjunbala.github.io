@@ -47,7 +47,8 @@ of workload. As a contribution, we provide a set of learnings to developers on t
 similar OS techniques.
 
 **Paper:** [Advanced OS Mini Project](Advanced_OS_MiniProject.pdf)
- **Code:** [Github](https://github.com/Arjunbala/Advanced-OS-MiniProject)
+
+**Code:** [Github](https://github.com/Arjunbala/Advanced-OS-MiniProject)
 
 
 ## Data Science Course Project
