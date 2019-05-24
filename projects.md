@@ -47,7 +47,7 @@ of workload. As a contribution, we provide a set of learnings to developers on t
 similar OS techniques.
 
 **Paper:** [Advanced OS Mini Project](Advanced_OS_MiniProject.pdf)
-**Code:** [Github](https://github.com/Arjunbala/Advanced-OS-MiniProject)
+ **Code:** [Github](https://github.com/Arjunbala/Advanced-OS-MiniProject)
 
 
 ## Data Science Course Project
@@ -55,11 +55,12 @@ The goal of this project is to get our hands "dirty" as a budding data scientist
 
 Specifically, in this project, we collected data, "wrangled" the data by extracting/cleaning/matching/integrating the data into a single unified data set, then analyzed that data set to infer insights.
 
-**Website:** [Project Webpage]https://rohit--sharma.github.io/CS839_DataScience/
+**Website:** [Project Webpage](https://rohit--sharma.github.io/CS839_DataScience/)
 
 
 ## Big Data Systems Course Assignments
 Course assignments for Big Data Systems had us playing around with Apache Spark and TensorFlow.
+
 **Code and Reports:** [Big Data Assignments](https://github.com/Arjunbala/CS744-Assignments)
 
 
