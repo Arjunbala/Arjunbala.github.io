@@ -35,7 +35,7 @@ Modern distributed machine learning (ML) training workloads benefit significantl
 In this project, we look at how to minimize scheduling latencies in serverless computing.
 Please contact me for more details.
 
-======
+=====
 
 ## Graduate Course Projects
 
