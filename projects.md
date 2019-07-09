@@ -26,7 +26,7 @@ The distributed systems of today are designed using the guidance of the CAP theo
 ### Fair GPU Cluster Scheduling for ML Training Jobs
 Modern distributed machine learning (ML) training workloads benefit significantly from leveraging GPUs. However, significant contention ensues when multiple such workloads are run atop a shared cluster of GPUs. ML training jobs have unique characteristics - they are typically long-running, sensitive to placement of workers across GPUs in the cluster, and often consist of multiple hyper-parameter explorations. We seek to answer a key question - how to fairly apportion GPUs across ML jobs having these characteristics while maximizing cluster efficiency.
 
-**Paper:** Please contact me for access.
+**Pre-Publication:** [arxiv](https://arxiv.org/pdf/1907.01484.pdf)
 
 **Code:** Please contact me for access.
 
