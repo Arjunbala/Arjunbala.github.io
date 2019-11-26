@@ -54,7 +54,7 @@ The distributed systems of today are designed using the guidance of the CAP theo
 ### SS-KVSTORE: Simple and Small Key-Value Store
 This study presents our experiences in designing and implementing a simple and small key-value store named SS-KVSTORE . We first outline the mechanism for building a key-value store assuming that there are no failures and then outline how failure handling can be incorporated into our mechanisms. We find that we can implement a highly reliable and performant key-value store by using just a small amount of auxiliary metadata associated with each key-value pair. Evaluation on a prototype implementation shows that SS-KVSTORE is able to achieve a read throughput of up to ~1400 keys/sec and a write throughput of up to ~45 keys/sec.
 
-**Paper:** [Advanced OS Mini Project](SS_KVStore.pdf)
+**Paper:** [SS-KVSTORE](SS_KVStore.pdf)
 
 **Code:** [Github](https://github.com/Arjunbala/KVStore)
 
