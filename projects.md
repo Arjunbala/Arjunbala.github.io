@@ -35,7 +35,7 @@ Over the last few years, Deep Neural Networks (DNNs) have become ubiquitous owin
 ### FAST PS: A Fast Publish-Subscribe service using RDMA
 We present FAST PS, a fast publish-subscribe service that utilizes RDMA both for fast transport and for efficient CPU offload. We first present requirements from a new class of applications that have very different requirements from the use-case for which Queue Management Systems were designed for. These requirements motivate a ground-up redesign of such systems with RDMA at the heart of it.
 
-**Proposal:** [FASTPS Proposal](FastPS_Proposal(1).pdf)
+**Proposal:** [FASTPS Proposal](FastPS_Proposal.pdf)
 
 **Code:** Please contact me for access
 
