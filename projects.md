@@ -32,10 +32,6 @@ Over the last few years, Deep Neural Networks (DNNs) have become ubiquitous owin
 
 **Code:** Please contact me for access.
 
-----
-
-## Graduate Course Projects
-
 #### Scheduling for HTAP systems on CPU-GPU clusters
 HTAP systems that run a combination of OLAP and OLTP queries can be built to leverage the advantages offered bythe next generation hardware such as GPUs and accelerators. GPUs have abundant parallelism and high memory bandwidth, and thus there has been considerable interest in utilizing GPUs to accelerate OLAP workloads. In this work, we explore the idea of how a cluster of CPU-GPU co-processor servers can be used to accelerate HTAP workloads. We tackle the interesting problem of scheduling this mixture of queries across a heterogeous cluster by focusing on efficient query routing, and GPU memory management. We propose EEVEE, a heuristic-based scheduler for HTAP systems that performs intelligent scheduling decisions to improve overall latency and throughput of query execution. We implemented a simulator to evaluate the performance of executing HTAP queries on a cluster of CPUs and GPUs. We evaluate our design on a series of micro-benchmarks and SSB workloads and obtain gains of up to 6X by using a heterogeous cluster, and our heuristic scheduling policy results in 4X improvement in the makespan compared to our baseline policy.
 
@@ -65,6 +61,11 @@ This study presents our experiences in designing and implementing a simple and s
 **Paper:** [SS-KVSTORE](SS_KVStore.pdf)
 
 **Code:** [Github](https://github.com/Arjunbala/KVStore)
+
+
+----
+
+## Graduate Course Projects
 
 
 ### Advanced Operating Systems Mini Project
