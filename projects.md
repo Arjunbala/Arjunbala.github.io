@@ -18,7 +18,7 @@ We present Archipelago, a platform that enables low latency request execution in
 Modern distributed machine learning (ML) training workloads benefit significantly from leveraging GPUs. However, significant contention ensues when multiple such workloads are run atop a shared cluster of GPUs. A key question is how to fairly apportion GPUs across workloads. We find that established cluster scheduling disciplines are a poor fit because of ML workloads' unique attributes: ML jobs have long-running tasks that need to be gang-scheduled, and their performance is sensitive to tasks' relative placement.
 We propose Themis, a new scheduling framework for ML training workloads. It's GPU allocation policy enforces that ML workloads complete in a finish-time fair manner, a new notion we introduce. To capture placement sensitivity and ensure efficiency, Themis uses a two-level scheduling architecture where ML workloads bid on available resources that are offered in an auction run by a central arbiter. Our auction design allocates GPUs to winning bids by trading off efficiency for fairness in the short term but ensuring finish-time fairness in the long term. Our evaluation on a production trace shows that Themis can improve fairness by more than 2.25X and is ~5% to 250% more cluster efficient in comparison to state-of-the-art schedulers.
 
-**Pre-Publication:** [arxiv](https://arxiv.org/pdf/1907.01484.pdf)
+**Publication:** [NSDI 2020](https://www.usenix.org/system/files/nsdi20-paper-mahajan.pdf)
 
 **Code:** Please contact me for access.
 
@@ -32,12 +32,23 @@ Over the last few years, Deep Neural Networks (DNNs) have become ubiquitous owin
 
 **Code:** Please contact me for access.
 
+----
+
+## Graduate Course Projects
+
+#### Scheduling for HTAP systems on CPU-GPU clusters
+HTAP systems that run a combination of OLAP and OLTP queries can be built to leverage the advantages offered bythe next generation hardware such as GPUs and accelerators. GPUs have abundant parallelism and high memory bandwidth, and thus there has been considerable interest in utilizing GPUs to accelerate OLAP workloads. In this work, we explore the idea of how a cluster of CPU-GPU co-processor servers can be used to accelerate HTAP workloads. We tackle the interesting problem of scheduling this mixture of queries across a heterogeous cluster by focusing on efficient query routing, and GPU memory management. We propose EEVEE, a heuristic-based scheduler for HTAP systems that performs intelligent scheduling decisions to improve overall latency and throughput of query execution. We implemented a simulator to evaluate the performance of executing HTAP queries on a cluster of CPUs and GPUs. We evaluate our design on a series of micro-benchmarks and SSB workloads and obtain gains of up to 6X by using a heterogeous cluster, and our heuristic scheduling policy results in 4X improvement in the makespan compared to our baseline policy.
+
+**Paper:** [HTAP Scheduling](wisc-cs839-ngdb20-paper177.pdf)
+
+**Code:** [Github](https://github.com/Arjunbala/HTAP-Scheduling)
+
 ### FAST PS: A Fast Publish-Subscribe service using RDMA
 We present FAST PS, a fast publish-subscribe service that utilizes RDMA both for fast transport and for efficient CPU offload. We first present requirements from a new class of applications that have very different requirements from the use-case for which Queue Management Systems were designed for. These requirements motivate a ground-up redesign of such systems with RDMA at the heart of it.
 
-**Proposal:** [FASTPS Proposal](FastPS_Proposal.pdf)
+**Paper:** [FASTPS Proposal](FastPS_Report.pdf)
 
-**Code:** Please contact me for access
+**Code:** [Github](https://github.com/Arjunbala/RDMAPubSub/)
 
 
 ### Unwritten Contract for Distributed Systems on SSDs
@@ -47,9 +58,6 @@ The distributed systems of today are designed using the guidance of the CAP theo
 
 **Code:** [Github](https://github.com/Arjunbala/DistributedSystemsSSDs)
 
-----
-
-## Graduate Course Projects
 
 ### SS-KVSTORE: Simple and Small Key-Value Store
 This study presents our experiences in designing and implementing a simple and small key-value store named SS-KVSTORE . We first outline the mechanism for building a key-value store assuming that there are no failures and then outline how failure handling can be incorporated into our mechanisms. We find that we can implement a highly reliable and performant key-value store by using just a small amount of auxiliary metadata associated with each key-value pair. Evaluation on a prototype implementation shows that SS-KVSTORE is able to achieve a read throughput of up to ~1400 keys/sec and a write throughput of up to ~45 keys/sec.
